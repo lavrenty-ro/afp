@@ -1,0 +1,188 @@
+extends view/layout.jade
+
+block var
+	- var assets 				= "assets/"
+
+
+block content
+	.container-fluid.full-width
+		.row
+			picture
+				source( srcset="#{assets}img/top_image_1000.jpg" media="(min-width: 1200px)")
+				source( srcset="#{assets}img/top_image_600.jpg" media="(min-width: 600px)")
+				img.img-responsive(srcset="#{assets}img/top_image_600.jpg")
+
+		.row.buying-option
+			.row-same-height
+
+				.col-xs-12.col-sm-6.col-sm-height.col-middle
+					h3.pull-left Title collection<br>
+						small subtitle of this collection
+				//.col-xs-12.col-sm-1.col-sm-height.col-middle
+				.col-xs-12.col-sm-6.col-sm-height.col-middle.text-right
+					form.form-inline
+						.form-group.qty
+							label( for="qty") Qty.
+							input.form-control#qty(type="text" placeholder="1")
+						.form-group
+							.p.price
+								span
+									strong 7
+									small €
+						.btn.btn-default.btn-default.btn-success(type="submit")
+							|  Add to cart 
+							span.glyphicon.glyphicon-shopping-cart
+
+
+
+	section.heroArea
+		.container-fluid
+
+		section#concept
+			.container
+				.row
+					.row-same-height
+						.col-md-6.col-md-offset-2.col-sm-height.col-middle
+							h1 01 Frame descrioption
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+				.row
+					hr
+					.col-md-4
+						h1 02 New concept
+					.col-md-8
+						small group of 4 AMAZING FRAMEABLE POSTCARDS
+						p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+					.col-md-3
+						img.img-responsive(srcset="#{assets}img/img_01.jpg")
+						p.text-center
+							a
+								| view enlarge
+					.col-md-3
+						img.img-responsive(srcset="#{assets}img/img_01.jpg")
+						p.text-center
+							a
+								| view enlarge
+					.col-md-3
+						img.img-responsive(srcset="#{assets}img/img_01.jpg")
+						p.text-center
+							a
+								| view enlarge
+					.col-md-3
+						img.img-responsive(srcset="#{assets}img/img_01.jpg")
+						p.text-center
+							a
+								| view enlarge
+				.row
+					hr
+					.row-same-height
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+						.col-md-6.text-right.col-sm-height.col-middle
+							h1 02 New concept
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+				.row
+					hr
+					.row-same-height
+						.col-md-6.col-md-offset-2.col-sm-height.col-middle
+							h1 03 Frame descrioption
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+				.row
+					hr
+					.row-same-height
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+						.col-md-6.text-right.col-sm-height.col-middle
+							h1 04 New concept
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+				.row
+					hr
+					.row-same-height
+						.col-md-6.col-md-offset-2.col-sm-height.col-middle
+							h1 05 Frame descrioption
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+				.row
+					hr
+					.row-same-height
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+						.col-md-6.text-right.col-sm-height.col-middle
+							h1 06 New concept
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+				.row
+					hr
+					.row-same-height
+						.col-md-6.col-md-offset-2.col-sm-height.col-middle
+							h1 07 Frame descrioption
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+				.row
+					hr
+					.row-same-height
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+						.col-md-6.text-right.col-sm-height.col-middle
+							h1 08 New concept
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+				.row
+					hr
+					.row-same-height
+						.col-md-6.col-md-offset-2.col-sm-height.col-middle
+							h1 09 Frame descrioption
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+				.row
+					hr
+					.row-same-height
+						.col-md-4.col-sm-height.col-middle
+							img.img-responsive(srcset="#{assets}img/img_01.jpg")
+							p.text-center
+								a
+									| view enlarge
+						.col-md-6.text-right.col-sm-height.col-middle
+							h1 10 New concept
+							small AMAZING FRAMEABLE POSTCARDS
+							p is a concept built around our old and wonderful fascination of collecting postcards. Each collection contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. These collectable postcards are also suitable for framing and can become exquisite objects to decorate your room or office.

@@ -1,0 +1,93 @@
+
+- var title 		= ""
+- var assets 		= "assets/"
+
+doctype html
+html(lang="en")
+	head
+		title #{title}
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+
+		link(href="#{assets}css/style.css", rel="stylesheet")
+
+		script(src="#{assets}js/jquery.min.js")
+		//- animation
+		script(src="#{assets}js/myScript.js")
+		//- paralax
+		script(src="#{assets}js/parallax.min.js")
+
+	body.index
+
+		.container-fluid
+			.section.sectionVideo
+				img.img-responsive.cover(src="#{assets}img/video.jpg" alt="" title="")
+			.section.section01
+				.copy
+					h2.text-center NEW CONCEPT
+					p.text-center
+						| Built around our old and wonderful fascination of collecting postcards.
+						br
+						| Each collection from AMAZING FRAMEABLE POSTCARDS contains 10 iconic images, printed as postcards and enclosed in a superbly crafted envelope. The postcards from the collections are also suitable for framing and can become exquisite objects to decorate your room or office.
+				.images
+					img.cover(src="#{assets}img/cover.jpg" alt="" title="")
+					img.largeA(src="#{assets}img/largeA.jpg" alt="" title="")
+					img.largeB(src="#{assets}img/largeB.jpg" alt="" title="")
+					img.mediumA(src="#{assets}img/mediumA.jpg" alt="" title="")
+					img.mediumB(src="#{assets}img/mediumB.jpg" alt="" title="")
+					img.smallA(src="#{assets}img/smallA.jpg" alt="" title="")
+					img.smallB(src="#{assets}img/smallB.jpg" alt="" title="")
+				.cta.text-center
+					button.btn.btn-lg view more
+			.section.section02
+				.copy
+					h2.text-center Only the best
+					p.text-center
+						| Only the best photographs, paintings, ideas, related to a place, building, event or a great personality find their place within the Collections and are all edited and printed with care and passion.
+				.images
+					img.backCover(src="#{assets}img/backCover.jpg" alt="" title="")
+					img.backCoverLogo(src="#{assets}img/backCover_logo.jpg" alt="" title="")
+				.cta.text-center
+					button.btn.btn-lg view more
+			.section.section03
+				.parallax-window(data-parallax="scroll" data-image-src="#{assets}img/paralax01plic.jpg")
+					.container
+						.row
+							.col-sm-6
+								.copy
+									h2 A beautifully designed
+									p A beautifully designed envelope, which opens like a smile, contains 10 wonderful pieces of affordable art works.
+									.cta.text-center
+									button.btn.btn-lg view more
+			.clearfix
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+			br
+
+

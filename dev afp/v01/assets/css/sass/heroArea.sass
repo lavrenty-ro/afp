@@ -1,0 +1,40 @@
+.container-fluid.full-width
+	padding: 0
+.buying-option
+	margin: 0px
+	width: 100%
+	float: left
+	background: darken(white, 10%)
+	-webkit-transition: all 2s ease
+	-moz-transition: all 2s ease
+	transition: all 2s ease
+	left: 0
+	padding: 1em
+	h3
+		margin-left: .5em
+		font-family: $monoFont
+		small
+			font-family: $handFont
+			font-style: italic
+	&.sticky
+		position: fixed
+		background: desaturate( lighten(green, 40%), 80% )
+		top: 0
+		left: 0
+		z-index: 999
+		color: white
+#qty
+	width:3em
+
+.price
+	font-size: 1.5em
+	font-family: $handFont
+	color: white
+	width:3em
+	height: 3em
+	//background: desaturate( lighten(green, 10%), 10% )
+	//border-radius: 50%
+	text-align: center
+	strong
+		font-family: $monoFont
+		font-size: 2em

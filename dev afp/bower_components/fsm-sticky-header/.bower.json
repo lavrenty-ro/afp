@@ -1,0 +1,25 @@
+{
+  "name": "fsm-sticky-header",
+  "main": [
+    "src/fsm-sticky-header.js"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0"
+  },
+  "ignore": [
+    "demo",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/FutureStateMobile/sticky-header",
+  "_release": "6e1e268cb5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6e1e268cb55e65a975bcbb32c218d9fb88299183"
+  },
+  "_source": "git://github.com/FutureStateMobile/sticky-header.git",
+  "_target": "*",
+  "_originalSource": "fsm-sticky-header",
+  "_direct": true
+}
