@@ -5,4 +5,4 @@
 
 in proiect eu utilizez:
 - jade [link](http://jade-lang.com/) - pentru a compila fisierele [Prepros](https://prepros.io/)
-- framework-ul de [bootstrap-sass] - (link)[https://github.com/twbs/bootstrap-sass]
+- framework-ul de [bootstrap-sass]() - [link](https://github.com/twbs/bootstrap-sass)
